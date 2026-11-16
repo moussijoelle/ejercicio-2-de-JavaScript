@@ -1,26 +1,26 @@
-﻿# Ejercicio 2 — promedio de notas
+# Ejercicio 2 — promedio de notas
 
-Calcula el promedio de tres notas.
+Formulario con tres notas; al enviar calcula el promedio.
 
 ## Qué hace
 
-- Formulario con tres notas
-- Al enviar, muestra el promedio
+- Tres inputs numéricos
+- Evita que la página se recargue (`preventDefault`)
+- Muestra el promedio
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html`.
 
 Demo: https://moussijoelle.github.io/ejercicio-2-de-JavaScript/
 
 ## Cómo lo construí
 
-- HTML + JavaScript (`app.js`)
-- `preventDefault` en el submit del formulario
+Todo en `app.js`: parseo de floats y media aritmética.
 
 ## Cómo verificarlo
 
-Sin tests. Introduzco tres notas y compruebo el promedio.
+Meto 5, 7 y 9 y compruebo que salga 7.
 
 ---
 
